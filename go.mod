@@ -1,3 +1,3 @@
-module reneforevercn.club
+module reneforevercn.c
 
 go 1.17
