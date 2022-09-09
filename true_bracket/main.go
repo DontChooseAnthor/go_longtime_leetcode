@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func isBracket(str string) bool {
 	var stack []string
 	strMap := map[string]string{
@@ -28,4 +30,7 @@ func isBracket(str string) bool {
 	return true
 }
 
-func main() {}
+func main() {
+	a := "hello world"
+	fmt.Printf("%T %s %d", a, a, a)
+}
