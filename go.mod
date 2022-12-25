@@ -1,3 +1,3 @@
-module reneforevercn.c
+module reneforever_longtime_lec
 
-go 1.17
+go 1.19
