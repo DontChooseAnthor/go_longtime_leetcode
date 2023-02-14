@@ -63,7 +63,6 @@ func CreateHashMap() *HashMap {
 	for i := 0; i < BucketCount; i++ {
 		myMap.Buckets[i] = CreateLink()
 	}
-
 	return myMap
 }
 

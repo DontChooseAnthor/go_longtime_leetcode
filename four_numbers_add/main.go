@@ -11,7 +11,7 @@ func fourSumAdd(nums []int, target int) (quadruplets [][]int) {
 	n := len(nums)
 	// 2.只循环排序后的四数之和 小于 targer的部分
 	for i := 0; i < n-3 && nums[i]+nums[i+2]+nums[i+3] <= target; i++ {
-		// if i > 0 && nums[i] == nums[i-1] || nums[i]+nums[n-3]+nums[n-2]+nums[n-1] < target {
+		// if i > 0 && nums[i] == nums[i-1] || nums[i]+nums[n-3	]+nums[n-2]+nums[n-1] < target {
 		// 	continue
 		// }
 		for j := i + 1; j < n-2 && nums[i]+nums[j]+nums[j+1]+nums[j+2] <= target; j++ {
